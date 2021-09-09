@@ -1,0 +1,14 @@
+.list__item {
+    width: 238px;
+    height: 177px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.list__item:last-child {
+    margin-right: 0;
+}

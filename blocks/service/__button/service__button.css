@@ -1,0 +1,8 @@
+.service__button {
+    background-image: url(../../../images/Group\ 181.png);
+    width: 212px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    border: none;
+}

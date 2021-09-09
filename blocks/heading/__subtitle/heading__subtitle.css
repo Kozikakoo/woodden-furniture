@@ -1,0 +1,10 @@
+.heading__subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}

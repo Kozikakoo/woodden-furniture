@@ -1,0 +1,9 @@
+.header__rectangle-pic {
+background-image: url(../../../images/Rectangle\ 4.png);
+width: 370px;
+height: 800px;
+position: absolute;
+top: 0;
+right: 0;
+margin: 0;
+}

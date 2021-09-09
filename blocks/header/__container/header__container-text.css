@@ -1,0 +1,10 @@
+.header__container-text {
+    width: 504px;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 217px;
+    left: 102px;
+    position: absolute;
+}
