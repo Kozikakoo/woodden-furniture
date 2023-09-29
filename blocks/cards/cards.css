@@ -1,9 +1,11 @@
 .cards {
-    min-width: 952px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    grid-template-rows: repeat(2, 400px);
+    row-gap: 54px;
+    column-gap: 56px;
+    margin: 26px 0;
     padding: 0;
+    align-items: center;
   }
   

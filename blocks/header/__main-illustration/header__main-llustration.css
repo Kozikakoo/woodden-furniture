@@ -2,8 +2,10 @@
     background-image: url(../../../images/Simple-modern-balcony-small-coffee-table-living-room-small-apartment-sofa-side-table-simple-home-bedroom\ 1.png);
     width: 568px;
     height: 577px;
-    position: absolute;
-    top: 169px;
+    background-position: center;
+    background-size: cover;
+    z-index: 7;
+    top: 165px;
     right: 0;
-    z-index: 1;
+    position: absolute;
 }

@@ -1,0 +1,10 @@
+.footer__image {
+    background-image: url(../../../images/chairfooter.jpg);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    width: 508px;
+    height: 455px;
+    z-index: 1;
+}

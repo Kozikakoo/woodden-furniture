@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 100px;
+    margin: 0;
 }
 
 .list__item:last-child {
