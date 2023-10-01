@@ -1,4 +1,9 @@
 .footer__author {
     margin: 45px 0 4px 0;
     align-self: center;
+    color: #8D8D8D;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.37px;
+    margin-bottom: 24px;
 }

@@ -1,11 +1,11 @@
-.footer__text {
-    margin-top: 0;
-    margin-bottom: 16px;
+.footer__link {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
+    margin-top: 0;
+    color: #8D8D8D;
 }
 
-.footer__text:last-child {
+.footer__link:last-child {
     margin-bottom: 0;
 }
