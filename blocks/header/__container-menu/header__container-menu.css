@@ -1,10 +1,12 @@
 .header__container-menu {
-    min-width: 1152px;
+    min-width: 70%;
     height: 80px;
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: 0 auto;
     align-items: center;
     z-index: 5;
-    position: relative;
+    position: absolute;
+    top: 0;
+
 }

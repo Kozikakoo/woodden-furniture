@@ -1,11 +1,11 @@
 .cards {
-    display: grid;
-    grid-template-columns: repeat(3, 280px);
-    grid-template-rows: repeat(2, 400px);
-    row-gap: 54px;
-    column-gap: 56px;
-    margin: 26px 0;
-    padding: 0;
-    align-items: center;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
+  grid-template-rows: repeat(2, 400px);
+  row-gap: 54px;
+  column-gap: 56px;
+  margin: 26px 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}

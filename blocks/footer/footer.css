@@ -1,9 +1,8 @@
 .footer {
-    background-color: #C4C4C4;
+    background-color: #f1f1f1;
     min-height: 455px;
     margin-top: 94px;
     position: relative;
-    background-image: url(../../images/footer.jpg);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
