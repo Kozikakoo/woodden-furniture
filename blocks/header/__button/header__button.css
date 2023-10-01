@@ -3,4 +3,13 @@
     height: 50px;
     background-image: url(../../../images/Group\ 18.png);
     border: none;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.2s linear 0.1s;
+}
+
+.header__button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
 }

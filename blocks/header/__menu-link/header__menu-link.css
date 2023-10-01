@@ -1,6 +1,11 @@
 .header__menu-link {
-text-decoration: none;
-font-size: 1rem;
-line-height: 1.375;
-font-weight: 400;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.375;
+  font-weight: 400;
+  transition: all 0.2s linear 0.1s;
+}
+
+.header__menu-link:hover {
+  color: #DAA520;
 }

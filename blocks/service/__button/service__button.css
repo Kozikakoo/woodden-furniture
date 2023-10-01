@@ -5,4 +5,10 @@
     position: absolute;
     bottom: 0px;
     border: none;
+    transition: all 0.2s linear 0.1s;
+}
+
+.service__button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }

@@ -1,15 +1,21 @@
 .cards__button {
-    font-size: 18px;
-    line-height: 23px;
-    font-weight: 400;
-    margin-bottom: 24px;
-    margin-right: 16px;
-    text-align: center;
-    width: 123px;
-    height: 40px;
-    align-self: flex-end;
-    background-color: transparent;
-    border-radius: 4px;
-    border-width: 1px;
-  }
-  
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  margin-right: 16px;
+  text-align: center;
+  width: 123px;
+  height: 40px;
+  align-self: flex-end;
+  background-color: transparent;
+  border-radius: 4px;
+  border-width: 1px;
+  transition: all 0.2s linear 0.1s;
+}
+
+.cards__button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
