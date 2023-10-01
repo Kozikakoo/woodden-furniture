@@ -4,8 +4,14 @@
     line-height: 19px;
     margin-top: 0;
     color: #8D8D8D;
+    transition: all 0.2s linear 0.1s;
 }
 
 .footer__link:last-child {
     margin-bottom: 0;
+}
+
+.footer__link:hover {
+    cursor: pointer;
+    color: black;
 }
