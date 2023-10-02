@@ -3,8 +3,12 @@
     grid-template-columns: repeat(5, auto);
     position: relative;
     z-index: 3;
-    margin: 0 336px 0 107px;
-    column-gap: 52px;
-    width: 709px;
+    margin: 0 30% 0 7%;
+    column-gap: 4.5%;
+    width: 66%;
     border-top: 1px solid #C4C4C4;
+}
+
+@media screen and (max-width: 1080px) {
+    .footer__columns {}
 }

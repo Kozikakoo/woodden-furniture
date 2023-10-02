@@ -5,8 +5,13 @@
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 508px;
-    height: 455px;
-
+    width: 44%;
+    height: 100%;
     z-index: 1;
+}
+
+@media screen and (max-width: 1080px) {
+    .footer__image {
+        width: 35%;
+    }
 }

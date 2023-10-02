@@ -6,3 +6,9 @@
     line-height: 25px;
     color: #333333;
 }
+
+@media screen and (max-width: 1080px) {
+    .footer__title {
+        font-size: 15px;
+    }
+}
