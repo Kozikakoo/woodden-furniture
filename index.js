@@ -1,26 +1,27 @@
 const cardButton = document.querySelectorAll('.cards__button');
 const popup = document.querySelector('.popup');
+const popupImg = popup.querySelector('.popup__img');
+const popupText = popup.querySelector('.popup__sign');
 const closeButton = document.querySelector('.popup__close');
 
-function openImage(element) {
-    const cardImage = element.querySelector('.cards__image');
-    const cardTitle = element.querySelector('.cards__title');
-    let popupSign = document.querySelector('.popup__sign');
-    let popupImage = document.querySelector('.popup__img');
 
-    console.log(pi.src);
-    popupSign.textContent = cardTitle.textContent;
-    popupImage.src = cardImage.src;
+function openPopup(e) {
+    popup.classList.add('popup_open');
+    let parent = e.target.parentNode;
+    let img = parent.querySelector('.cards__image');
+    let text = parent.querySelector('.cards__title');
+    popupImg.src = img.src;
+    popupImg.alt = img.alt;
+    console.log(popupImg.alt)
+    popupText.textContent = text.textContent;
 }
 
-cardButton.forEach((item) => item.addEventListener('click', () => {
-    const hu = item.closest('.cards__item');
-    popup.classList.add('popup_open');
-    console.log(hu);
-    popitka(hu);
-}));
-
-closeButton.addEventListener('click', () => {
+function closePopup() {
     popup.classList.remove('popup_open');
+}
+
+cardButton.forEach((item) => {
+    item.addEventListener('click', (e) => openPopup(e));
 })
 
+closeButton.addEventListener('click', closePopup);
