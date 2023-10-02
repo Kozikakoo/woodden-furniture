@@ -12,8 +12,20 @@ function openPopup(e) {
     let text = parent.querySelector('.cards__title');
     popupImg.src = img.src;
     popupImg.alt = img.alt;
-    console.log(popupImg.alt)
     popupText.textContent = text.textContent;
+}
+
+function closePopupEsc(e) {
+    if (e.key === 'Escape') {
+        closePopup();
+    }
+}
+
+function closePopupByOverlay(e) {
+    if (e.currentTarget === e.target) {
+
+        closePopup()
+    }
 }
 
 function closePopup() {
@@ -22,6 +34,10 @@ function closePopup() {
 
 cardButton.forEach((item) => {
     item.addEventListener('click', (e) => openPopup(e));
+
 })
 
 closeButton.addEventListener('click', closePopup);
+window.addEventListener('keydown', (e) => closePopupEsc(e));
+
+popup.addEventListener('click', (e) => closePopupByOverlay(e))
