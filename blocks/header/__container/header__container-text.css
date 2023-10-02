@@ -7,3 +7,10 @@
     align-self: start;
     margin-left: 10%;
 }
+
+@media screen and (max-width: 1080px) {
+    .header__container-text {
+        width: 350px;
+        height: 280px;
+    }
+}

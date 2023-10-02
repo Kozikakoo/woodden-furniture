@@ -6,3 +6,11 @@
     height: 98px;
     margin: 0;
 }
+
+@media screen and (max-width: 1080px) {
+    .header__subtitle {
+        font-size: 25px;
+        line-height: 40px;
+        width: 100%;
+    }
+}

@@ -1,9 +1,7 @@
 .popup__sign {
     font-weight: normal;
-    font-size: 12px;
+    font-size: 23px;
     line-height: 15px;
     color: white;
-    margin-top: 10px;
-    position: absolute;
+    margin: 20px auto 0;
 }
-
