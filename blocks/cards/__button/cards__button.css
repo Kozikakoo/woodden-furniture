@@ -19,3 +19,10 @@
   color: white;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1080px) {
+  .cards__button {
+    width: 100px;
+    height: 28px;
+  }
+}

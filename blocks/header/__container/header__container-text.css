@@ -12,5 +12,6 @@
     .header__container-text {
         width: 350px;
         height: 280px;
+        margin-left: 5%;
     }
 }

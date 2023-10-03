@@ -5,3 +5,9 @@
   margin: 24px 207px 0 16px;
   text-align: center;
 }
+
+@media screen and (max-width: 1080px) {
+  .cards__title {
+    font-size: 20px;
+  }
+}

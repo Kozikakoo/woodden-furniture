@@ -4,3 +4,9 @@
     position: relative;
     min-height: 840px;
 }
+
+@media screen and (max-width: 1080px) {
+    .categories {
+        min-height: 670px;
+    }
+}
