@@ -1,12 +1,13 @@
 .list__item {
-    width: 238px;
-    height: 177px;
+    width: 100%;
+    height: 100%;
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     margin: 0;
+    position: relative;
 }
 
 .list__item:last-child {

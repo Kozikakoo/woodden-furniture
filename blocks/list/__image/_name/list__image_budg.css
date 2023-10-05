@@ -1,0 +1,10 @@
+.list__image_budg {
+  background-image: url(../../../../images/cost\ 1.svg);
+}
+
+.list__image_budg::after {
+  content: url(../../../../images/3.png);
+  position: absolute;
+  bottom: 55px;
+  left: 28px;
+}

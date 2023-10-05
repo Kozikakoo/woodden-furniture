@@ -1,0 +1,10 @@
+.list__image_des {
+  background-image: url(../../../../images/shop\ 1.png);
+}
+
+.list__image_des::after {
+  content: url(../../../../images/1.png);
+  position: absolute;
+  bottom: 55px;
+  left: 28px;
+}

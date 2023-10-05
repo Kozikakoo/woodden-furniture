@@ -1,0 +1,10 @@
+.list__image_area {
+  background-image: url(../../../../images/ruler\ 1.svg);
+}
+
+.list__image_area::after {
+  content: url(../../../../images/2.png);
+  position: absolute;
+  bottom: 55px;
+  left: 28px;
+}

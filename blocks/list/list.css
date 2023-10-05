@@ -1,9 +1,13 @@
 .list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    flex-direction: row;
-    align-items: center;
+    grid-template-columns: repeat(4, 238px);
     padding: 0px;
     margin: 64px auto;
+}
 
+@media screen and (max-width: 1080px) {
+    .list {
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 100px;
+    }
 }

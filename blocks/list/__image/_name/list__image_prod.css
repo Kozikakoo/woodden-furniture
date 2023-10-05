@@ -1,0 +1,10 @@
+.list__image_prod {
+  background-image: url(../../../../images/carpenter\ 1.png);
+}
+
+.list__image_prod::after {
+  content: url(../../../../images/4.png);
+  position: absolute;
+  bottom: 55px;
+  left: 28px;
+}

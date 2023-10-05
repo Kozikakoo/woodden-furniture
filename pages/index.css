@@ -43,6 +43,10 @@
 @import url(../blocks/list-box/list-box.css);
 @import url(../blocks/list/__image/list__image.css);
 @import url(../blocks/list/__number/list__number.css);
+@import url(../blocks/list/__image/_name/list__image_des.css);
+@import url(../blocks/list/__image/_name/list__image_area.css);
+@import url(../blocks/list/__image/_name/list__image_budg.css);
+@import url(../blocks/list/__image/_name/list__image_prod.css);
 
 @import url(../blocks/categories/categories.css);
 
