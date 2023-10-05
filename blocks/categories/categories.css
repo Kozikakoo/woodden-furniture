@@ -1,12 +1,5 @@
 .categories {
     margin-top: 120px;
-    margin-bottom: 0;
+    margin-bottom: 120px;
     position: relative;
-    min-height: 840px;
-}
-
-@media screen and (max-width: 1080px) {
-    .categories {
-        min-height: 670px;
-    }
 }

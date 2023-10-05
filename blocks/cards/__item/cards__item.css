@@ -1,12 +1,13 @@
 .cards__item {
-    display: flex;
-    flex-direction: column;
-    width: 240px;
-    list-style: none;
-    margin: 0 100px 0 0;
-    position: relative;
-  }
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  margin: 0 100px 0 0;
+  position: relative;
+}
 
-  .cards__item:nth-child(3n) {
-    padding: 0;
-  }
+.cards__item:nth-child(3n) {
+  padding: 0;
+}
