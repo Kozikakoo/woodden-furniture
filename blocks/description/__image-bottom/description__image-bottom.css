@@ -1,8 +1,6 @@
-.description__image-bottom-corner {
+.description__image-bottom {
     background-image: url(../../../images/Script-Online-Ado-Beech-Steel-Spoon-Set-Of-3-52151704SD00001-PDP-Gallery-D-01\ 1.png);
-    position: absolute;
     width: 287px;
     height: 384px;
-    right: 0;
-    bottom: 0;
+    margin-right: -100px;
 }
