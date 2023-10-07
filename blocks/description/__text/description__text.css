@@ -1,6 +1,12 @@
 .description__text {
-font-size: 36px;
-line-height: 49px;
-margin: 0;
+  font-size: 36px;
+  line-height: 49px;
+  margin: 0;
 }
 
+@media screen and (max-width: 1080px) {
+  .description__text {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

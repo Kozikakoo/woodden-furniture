@@ -2,3 +2,9 @@
     width: 657px;
     height: 131px;
 }
+
+@media screen and (max-width: 1080px) {
+    .description__text-container_position_bottom {
+        width: 540px;
+    }
+}

@@ -3,15 +3,32 @@
   position: relative;
   width: 388px;
   height: 306px;
-  background-position: right bottom;
+  background-position: center;
+  background-size: cover;
+
 }
 
 .description__image-top::after {
-  content: url(../../../images/Rectangle\ 5.png);
+  content: "";
+  background-image: url(../../../images/Rectangle\ 5.png);
   position: absolute;
-  width: 426px;
+  width: 278px;
   height: 388px;
   left: 0;
   top: -55px;
   z-index: -1;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1080px) {
+  .description__image-top {
+    width: 350px;
+    height: 260px;
+  }
+
+  .description__image-top::after {
+    width: 220px;
+    height: 310px;
+  }
 }

@@ -3,3 +3,10 @@
     line-height: 33px;
     margin: 0;
 }
+
+@media screen and (max-width: 1080px) {
+    .description__text-bottom {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}

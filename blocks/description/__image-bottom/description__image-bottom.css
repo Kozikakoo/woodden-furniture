@@ -3,4 +3,13 @@
     width: 287px;
     height: 384px;
     margin-right: -100px;
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1080px) {
+    .description__image-bottom {
+        width: 250px;
+        height: 350px;
+    }
 }
