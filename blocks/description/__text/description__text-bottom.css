@@ -10,3 +10,9 @@
         line-height: 28px;
     }
 }
+
+@media screen and (max-width: 940px) {
+    .description__text-bottom {
+        margin-top: 20px;
+    }
+}

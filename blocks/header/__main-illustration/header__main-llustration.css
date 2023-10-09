@@ -16,3 +16,21 @@
         height: 400px;
     }
 }
+
+
+@media screen and (max-width: 766px) {
+    .header__main-illustration {
+        width: 230px;
+        height: 250px;
+        top: 60px;
+    }
+}
+
+@media screen and (max-width: 543px) {
+    .header__main-illustration {
+        width: 150px;
+        height: 190px;
+        top: 70px;
+    }
+
+}

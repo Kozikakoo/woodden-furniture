@@ -8,5 +8,11 @@
     z-index: 5;
     position: absolute;
     top: 0;
+}
 
+@media screen and (max-width: 766px) {
+    .header__container-menu {
+        height: 50px;
+        width: 90%;
+    }
 }

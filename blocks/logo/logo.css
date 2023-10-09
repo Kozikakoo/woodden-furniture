@@ -17,3 +17,10 @@
     height: 20px;
   }
 }
+
+@media screen and (max-width: 543px) {
+  .logo {
+    width: 100px;
+    height: 18px;
+  }
+}

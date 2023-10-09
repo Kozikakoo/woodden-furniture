@@ -16,5 +16,18 @@
     width: 276px;
     height: 600px;
   }
+}
 
+@media screen and (max-width: 766px) {
+  .header__rectangle-pic {
+    width: 150px;
+    height: 325px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .header__rectangle-pic {
+    width: 122px;
+    height: 270px;
+  }
 }

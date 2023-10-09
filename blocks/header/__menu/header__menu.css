@@ -15,3 +15,9 @@
         height: 18px;
     }
 }
+
+@media screen and (max-width: 766px) {
+    .header__menu {
+        display: none;
+    }
+}
