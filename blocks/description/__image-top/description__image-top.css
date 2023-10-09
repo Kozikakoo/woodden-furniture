@@ -32,3 +32,13 @@
     height: 310px;
   }
 }
+
+@media screen and (max-width: 940px) {
+  .description__image-top {
+    margin-top: 70px;
+  }
+
+  .description__image-top::after {
+    top: -30px;
+  }
+}

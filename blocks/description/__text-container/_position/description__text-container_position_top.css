@@ -8,3 +8,11 @@
         width: 360px;
     }
 }
+
+@media screen and (max-width: 940px) {
+    .description__text-container_position_top {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+}

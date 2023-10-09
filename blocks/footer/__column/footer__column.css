@@ -4,3 +4,9 @@
     margin: 0;
     padding: 24px 0 0;
 }
+
+@media screen and (max-width: 1080px) {
+    .footer__column:first-of-type {
+        padding-top: 33px;
+    }
+}

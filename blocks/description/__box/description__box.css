@@ -11,3 +11,18 @@
 .description__box:last-of-type {
   margin-top: 40px;
 }
+
+@media screen and (max-width: 940px) {
+  .description__box {
+    flex-direction: column-reverse;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description__box:last-of-type {
+    flex-direction: column;
+    margin-top: 60px;
+
+  }
+}

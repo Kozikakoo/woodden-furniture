@@ -20,7 +20,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 760px) {
   .cards__button {
     width: 100px;
     height: 28px;
