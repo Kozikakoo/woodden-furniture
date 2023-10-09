@@ -10,3 +10,17 @@
         font-size: 40px;
     }
 }
+
+@media screen and (max-width: 766px) {
+    .heading__title {
+        font-size: 25px;
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 543px) {
+    .heading__title {
+        font-size: 15px;
+        line-height: 40px;
+    }
+}

@@ -13,6 +13,12 @@
 @media screen and (max-width: 766px) {
     .header__container-menu {
         height: 50px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 543px) {
+    .header__container-menu {
         width: 90%;
     }
 }

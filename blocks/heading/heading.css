@@ -3,10 +3,18 @@
     justify-content: space-between;
     height: 98px;
     margin-top: 120px;
+    align-items: center;
 }
 
 @media screen and (max-width: 1080px) {
     .heading {
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .heading {
+        height: 50px;
+        width: 100%;
     }
 }

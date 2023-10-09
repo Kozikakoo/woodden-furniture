@@ -1,3 +1,11 @@
 .content {
     margin: 0 100px;
 }
+
+
+@media screen and (max-width: 766px) {
+    .content {
+        margin: 0 10%;
+
+    }
+}
