@@ -10,3 +10,13 @@
         padding-top: 33px;
     }
 }
+
+@media screen and (max-width: 766px) {
+    .footer__column:first-of-type {
+        border-bottom: 1px solid #C4C4C4;
+    }
+
+    .footer__column {
+        padding-top: 20px;
+    }
+}

@@ -9,6 +9,10 @@
     border-top: 1px solid #C4C4C4;
 }
 
-@media screen and (max-width: 1080px) {
-    .footer__columns {}
+@media screen and (max-width: 766px) {
+    .footer__columns {
+        display: flex;
+        flex-direction: column;
+        border-top: none;
+    }
 }
