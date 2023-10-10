@@ -1,0 +1,49 @@
+.header__burger {
+  display: none;
+}
+
+@media screen and (max-width: 766px) {
+  .header__burger {
+    display: block;
+    background-color: #484646;
+    width: 20px;
+    height: 3px;
+    position: relative;
+  }
+
+  .header__burger::after {
+    content: "";
+    background-color: #484646;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    top: 6px
+  }
+
+
+  .header__burger::before {
+    content: "";
+    background-color: #484646;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    bottom: 6px
+  }
+
+  .header__burger, .header__burger::before, .header__burger::after {
+    transition: all 0.3s linear;
+  }
+
+  .header__burger:hover {
+    background-color: #DAA520;
+  }
+
+  .header__burger:hover::before {
+    background-color: #DAA520;
+  }
+
+  .header__burger:hover::after {
+    background-color: #DAA520;
+  }
+
+}

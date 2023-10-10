@@ -1,0 +1,12 @@
+.footer__plus {
+  display: none;
+}
+
+
+@media screen and (max-width: 766px) {
+  .footer__plus {
+    display: block;
+    font-size: 20px;
+
+  }
+}

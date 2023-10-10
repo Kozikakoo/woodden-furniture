@@ -15,3 +15,9 @@
         width: 35%;
     }
 }
+
+@media screen and (max-width: 766px) {
+    .footer__image {
+        display: none;
+    }
+}
