@@ -30,6 +30,8 @@
   }
 }
 
-@media screen and (max-width: 800px) {
-  .cards {}
+@media screen and (max-width: 543px) {
+  .cards {
+    margin-top: 40px;
+  }
 }

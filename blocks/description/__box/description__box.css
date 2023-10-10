@@ -26,3 +26,9 @@
 
   }
 }
+
+@media screen and (max-width: 543px) {
+  .description__box {
+    margin-top: 40px;
+  }
+}

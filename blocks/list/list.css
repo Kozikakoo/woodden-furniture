@@ -11,3 +11,10 @@
         margin-bottom: 100px;
     }
 }
+
+@media screen and (max-width: 543px) {
+    .list {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 0;
+    }
+}

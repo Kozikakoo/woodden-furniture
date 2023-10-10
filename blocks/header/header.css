@@ -18,6 +18,12 @@
 
 @media screen and (max-width: 766px) {
         .header {
-                min-height: 320px;
+                min-height: 410px;
+        }
+}
+
+@media screen and (max-width: 543px) {
+        .header {
+                min-height: 310px;
         }
 }
