@@ -20,6 +20,8 @@
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__burger-menu/header__burger-menu.css);
 @import url(../blocks/header/__nav-menu/header__nav-menu.css);
+@import url(../blocks/header/__nav-list/header__nav-list.css);
+@import url(../blocks/header/__close/header__close.css);
 
 @import url(../blocks/content/content.css);
 @import url(../blocks/description/description.css);

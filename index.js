@@ -4,6 +4,9 @@ const popupImg = popup.querySelector('.popup__img');
 const popupText = popup.querySelector('.popup__sign');
 const closeButton = document.querySelector('.popup__close');
 
+const burgerButton = document.querySelector('.header__burger');
+const closeButtonBurger = document.querySelector('.header__close');
+const navMenu = document.querySelector('.header__nav-menu');
 
 function openPopup(e) {
     popup.classList.add('popup_open');
@@ -37,7 +40,14 @@ cardButton.forEach((item) => {
 
 })
 
+function toggleBurgerMenu() {
+    navMenu.classList.toggle('active');
+}
+
 closeButton.addEventListener('click', closePopup);
 window.addEventListener('keydown', (e) => closePopupEsc(e));
 
-popup.addEventListener('click', (e) => closePopupByOverlay(e))
+popup.addEventListener('click', (e) => closePopupByOverlay(e));
+
+burgerButton.addEventListener('click', toggleBurgerMenu);
+closeButtonBurger.addEventListener('click', toggleBurgerMenu);

@@ -1,1 +1,18 @@
-.header__nav-menu {}
+.header__nav-menu {
+  background-color: rgb(246, 192, 201);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 25;
+  max-width: 0;
+  opacity: 0;
+  transition: max-width 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.header__nav-menu.active {
+  max-width: 100%;
+  /* Ширина, на которую вы хотите развернуть навигацию */
+  opacity: 1;
+}

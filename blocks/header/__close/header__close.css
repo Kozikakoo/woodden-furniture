@@ -1,16 +1,15 @@
-.header__burger {
+.header__close {
   background-color: transparent;
   border: none;
-  font-size: 23px;
+  font-size: 30px;
   color: rgb(75, 74, 74);
   transition: all 0.5s linear;
   position: absolute;
-  top: 5px;
   right: 5%;
-  z-index: 8;
+  top: 1px;
 }
 
-.header__burger:hover {
+.header__close:hover {
   cursor: pointer;
   color: #DAA520;
 }
