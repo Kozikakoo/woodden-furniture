@@ -7,6 +7,7 @@ const closeButton = document.querySelector('.popup__close');
 const burgerButton = document.querySelector('.header__burger');
 const closeButtonBurger = document.querySelector('.header__close');
 const navMenu = document.querySelector('.header__nav-menu');
+const menuLink = document.querySelectorAll('.header__menu-link');
 
 function openPopup(e) {
     popup.classList.add('popup_open');
@@ -44,6 +45,8 @@ function toggleBurgerMenu() {
     navMenu.classList.toggle('active');
 }
 
+
+
 closeButton.addEventListener('click', closePopup);
 window.addEventListener('keydown', (e) => closePopupEsc(e));
 
@@ -51,3 +54,4 @@ popup.addEventListener('click', (e) => closePopupByOverlay(e));
 
 burgerButton.addEventListener('click', toggleBurgerMenu);
 closeButtonBurger.addEventListener('click', toggleBurgerMenu);
+menuLink.forEach((item) => item.addEventListener('click', toggleBurgerMenu));
