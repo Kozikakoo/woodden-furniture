@@ -1,0 +1,10 @@
+.popup__input-name {
+  font-family: 'Nunito', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 20px 0 10px;
+}
+
+.popup__input-name:first-of-type {
+  margin-top: 0;
+}
