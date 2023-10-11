@@ -4,11 +4,11 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(246, 192, 201, 0.8);
     visibility: hidden;
     justify-content: center;
     align-items: center;
     opacity: 0;
     display: flex;
-    z-index: 2;
+    z-index: 20;
 }

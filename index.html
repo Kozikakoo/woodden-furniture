@@ -249,11 +249,20 @@
 
   <div class="popup popup_image popup_transition">
     <div class="popup__container">
-      <button class="popup__close" type="button"></button>
-      <figure class="popup__figure">
-        <img class="popup__img" src="#" alt="Desk" />
-        <figcaption class="popup__sign">Desk</figcaption>
-      </figure>
+      <button class="popup__close" type="button">&times;</button>
+      <form class="popup__form" method="post">
+        <h2 class="popup__title">Follow Us</h2>
+        <label class="popup__input-name" for="username">Name</label>
+        <input class="popup__input" type="text" id="username" name="username" required>
+
+        <label class="popup__input-name" for="email">Email</label>
+        <input class="popup__input" type="email" id="email" name="email" required>
+
+        <label class="popup__input-name" for="message">Message</label>
+        <textarea class="popup__input" type="text" id="message" name="message" required></textarea>
+
+        <button type="submit">Отправить</button>
+      </form>
     </div>
   </div>
   </div>

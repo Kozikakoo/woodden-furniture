@@ -1,15 +1,19 @@
 .popup__close {
-    background-image: url(../../../images/CloseIcon.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
     width: 32px;
     height: 32px;
+    font-size: 35px;
     margin: 0;
     position: absolute;
-    top: -40px;
-    right: -40px;
+    top: 4px;
+    right: 4px;
+    border: none;
     cursor: pointer;
     background-color: transparent;
-    border: none;
-    background-size: cover;
+
     transition: opacity 0.1s linear 0.1s;
 }
 
