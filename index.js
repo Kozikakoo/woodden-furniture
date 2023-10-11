@@ -9,10 +9,7 @@ const closeButtonBurger = document.querySelector('.header__close');
 const navMenu = document.querySelector('.header__nav-menu');
 const menuLink = document.querySelectorAll('.header__menu-link');
 
-const footerList = document.querySelectorAll('.footer__list');
-const footerColumn = document.querySelectorAll('.footer__column');
-const footerTitle = document.querySelectorAll('.footer__title');
-const footerTitleContacts = document.querySelector('.footer__title_additional');
+const titleElements = document.querySelectorAll('.footer__title, .footer__title_additional');
 
 function openPopup(e) {
     popup.classList.add('popup_open');
@@ -50,11 +47,12 @@ function toggleBurgerMenu() {
     navMenu.classList.toggle('active');
 }
 
-function openFooterList(e) {
-    console.log(e.currentTarget)
-    console.log(e.target)
+function openFooterList(titleElement) {
+    const column = titleElement.parentElement;
 
-    footerList.classList.toggle('additional');
+    const list = column.querySelector('.footer__list');
+
+    list.classList.toggle('additional');
 }
 
 
@@ -68,5 +66,5 @@ burgerButton.addEventListener('click', toggleBurgerMenu);
 closeButtonBurger.addEventListener('click', toggleBurgerMenu);
 menuLink.forEach((item) => item.addEventListener('click', toggleBurgerMenu));
 
-footerColumn.forEach((item) => item.addEventListener('click', openFooterList));
-footerTitleContacts.addEventListener('click', openFooterList)
+titleElements.forEach((titleElement) => titleElement.addEventListener('click', () => openFooterList(titleElement)));
+

@@ -14,7 +14,7 @@
   }
 
   .footer__list.additional {
-    max-height: 40px;
+    max-height: 80px;
     opacity: 1;
   }
 }
