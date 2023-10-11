@@ -1,0 +1,26 @@
+.footer__title_additional {
+  display: none;
+}
+
+@media screen and (max-width: 766px) {
+  .footer__title_additional {
+    border-top: 1px solid #C4C4C4;
+    font-weight: 600;
+    line-height: 25px;
+    color: #333333;
+    font-size: 15px;
+    display: block;
+    margin: 0;
+    padding: 25px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: all 0.3s linear;
+  }
+
+  .footer__title_additional:hover {
+    cursor: pointer;
+    color: #DAA520;
+
+  }
+}

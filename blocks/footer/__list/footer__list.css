@@ -1,10 +1,20 @@
 .footer__list {
   margin: 0;
   padding: 0;
+
 }
 
 @media screen and (max-width: 766px) {
   .footer__list {
-    display: none;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+    margin-top: 10px;
+  }
+
+  .footer__list.additional {
+    max-height: 40px;
+    opacity: 1;
   }
 }

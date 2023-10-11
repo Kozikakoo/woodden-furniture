@@ -81,6 +81,7 @@
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__plus/footer__plus.css);
+@import url(../blocks/footer/__title/_additional/footer__title_additional.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__close/popup__close.css);
