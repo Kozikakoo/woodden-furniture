@@ -36,9 +36,9 @@
       </div>
 
       <div class="header__burger-menu">
-        <button class="header__burger">&#9776;</button>
+        <button class="header__burger" type="button">&#9776;</button>
         <nav class="header__nav-menu">
-          <button class="header__close">&times;</button>
+          <button class="header__close" type="button">&times;</button>
           <ul class="header__nav-list">
             <li>
               <a class="header__menu-link header__menu-link_color_orange" href="#home">Home</a>
@@ -66,7 +66,7 @@
         </p>
         <h1 class="header__title">This is the Right&nbsp;Place</h1>
 
-        <button class="header__button"></button>
+        <button class="header__button" type="button"></button>
       </div>
     </header>
     <main class="content">
@@ -133,7 +133,7 @@
               <h3 class="list__desc">Production</h3>
             </li>
           </ul>
-          <button class="service__button"></button>
+          <button class="service__button" type="button"></button>
         </div>
       </section>
 
@@ -150,7 +150,7 @@
                 src="./images/Konfest-PNG-JPG-Image-Pic-Photo-Free-Download-Royalty-Unlimited-clip-art-sticker-tables-moveable-furniture-furnishing-fixtures-appliance-top-view-48 1.png"
                 alt="Desk" />
 
-              <button class="cards__button">Shop now</button>
+              <button class="cards__button" type="button">Shop now</button>
             </div>
 
           <li class="cards__item">
@@ -160,7 +160,7 @@
                 src="./images/soft-pad-dining-chair-with-solid-oak-crossed-wood-legs-cool-grey-p1561-26034_zoom 1.png"
                 alt="Chair" />
 
-              <button class="cards__button">Shop now</button>
+              <button class="cards__button" type="button">Shop now</button>
             </div>
 
           <li class="cards__item">
@@ -168,7 +168,7 @@
               <h3 class="cards__title">Kitchenware</h3>
               <img class="cards__image" src="./images/fd2d95252c7fbc851e6dc7463e6b3284 1.png" alt="Kitchenware" />
 
-              <button class="cards__button">Shop now</button>
+              <button class="cards__button" type="button">Shop now</button>
             </div>
 
           <li class="cards__item">
@@ -178,7 +178,7 @@
                 src="./images/kissclipart-shelf-bookcase-png-clipart-bookshelf-bookcase-bcab65430cdd522a 1.png"
                 alt="Book Shelf" />
 
-              <button class="cards__button">Shop now</button>
+              <button class="cards__button" type="button">Shop now</button>
             </div>
 
           <li class="cards__item">
@@ -186,7 +186,7 @@
               <h3 class="cards__title">Electronics</h3>
               <img class="cards__image" src="./images/Vintage-Radio-PNG-Image 1.png" alt="Electronics" />
 
-              <button class="cards__button">Shop now</button>
+              <button class="cards__button" type="button">Shop now</button>
             </div>
 
         </ul>
@@ -250,7 +250,7 @@
   <div class="popup popup_image popup_transition">
     <div class="popup__container">
       <button class="popup__close" type="button">&times;</button>
-      <form class="popup__form" method="post">
+      <form class="popup__form" novalidate>
         <h2 class="popup__title">Follow Us</h2>
         <input class="popup__input" placeholder="Name" type="text" id="username" name="username" required>
 
@@ -259,12 +259,12 @@
         <textarea class="popup__input" placeholder="Message" type="text" id="message" name="message"
           required></textarea>
 
-        <button class="popup__button" type="submit">Отправить</button>
+        <button class="popup__button" type="submit" disabled>Отправить</button>
       </form>
     </div>
   </div>
   </div>
-  <script src="./index.js"></script>
+  <script src="./pages/index.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,9 @@
  .popup__input {
-   width: 60%;
+   width: 100%;
    align-self: center;
+   margin-bottom: 15px;
+ }
+
+ .popup__input:last-child {
+   margin-bottom: 0;
  }
