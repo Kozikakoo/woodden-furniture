@@ -37,12 +37,37 @@ popup.addEventListener('click', (e) => closePopupByOverlay(e));
 
 /* VALIDATION POPUP FORM */
 
-const popupButton = document.querySelector('.popup__button');
+const formButton = document.querySelector('.popup__button');
+const formInputs = document.querySelectorAll('.popup__input');
+const formPopup = document.querySelector('.popup__form');
 
-function isFormInvalid() {
+const showInputError = (formElement, inputElement, errorMessage) => {
+    console.log(inputElement.id)
+    const errorElement = formElement.querySelector(`.${inputElement.id}-error`);
 
-}
+    inputElement.classList.add('popup__input_type_error');
+    errorElement.textContent = errorMessage;
+    errorElement.classList.add('form__input-error_active');
+};
 
+const hideInputError = (formElement, inputElement) => {
+
+    const errorElement = formElement.querySelector(`.${inputElement.id}-error`);
+
+    inputElement.classList.remove('popup__input_type_error');
+    errorElement.classList.remove('form__input-error_active');
+    errorElement.textContent = '';
+};
+
+const isValid = (formElement, inputElement) => {
+    if (!inputElement.validity.valid) {
+        showInputError(formElement, inputElement, inputElement.validationMessage);
+    } else {
+        hideInputError(formElement, inputElement);
+    }
+};
+
+Array.from(formInputs).forEach((formInput) => { formInput.addEventListener('input', () => { isValid(formPopup, formInput) }) })
 
 
 /* BURGER MENU */

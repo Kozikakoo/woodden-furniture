@@ -252,14 +252,16 @@
       <button class="popup__close" type="button">&times;</button>
       <form class="popup__form" novalidate>
         <h2 class="popup__title">Follow Us</h2>
-        <input class="popup__input" placeholder="Name" type="text" id="username" name="username" required>
-
-        <input class="popup__input" placeholder="Email" type="email" id="email" name="email" required>
-
-        <textarea class="popup__input" placeholder="Message" type="text" id="message" name="message"
-          required></textarea>
-
-        <button class="popup__button" type="submit" disabled>Отправить</button>
+        <input id="username-input" class="popup__input" placeholder="Name" maxlength="20" minlength="2" type="text"
+          id="username" name="username" required>
+        <span class="username-input-error"></span>
+        <input id="email-input" class="popup__input" placeholder="Email" maxlength="30" type="email" id="email"
+          name="email" required>
+        <span class="email-input-error"></span>
+        <textarea id="message-input" class="popup__input" minlength="5" placeholder="Message" type="text" id="message"
+          name="message" required></textarea>
+        <span class="message-input-error"></span>
+        <button class="popup__button" type="submit" disabled>Send</button>
       </form>
     </div>
   </div>
