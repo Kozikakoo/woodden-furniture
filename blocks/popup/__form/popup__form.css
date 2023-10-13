@@ -4,3 +4,16 @@
     align-items: start;
     padding: 7% 13%;
 }
+
+@media screen and (max-width: 1100px) {
+    .popup__form {
+        padding: 4% 10%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .popup__form {
+        align-items: center;
+    }
+}

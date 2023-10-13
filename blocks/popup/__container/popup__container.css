@@ -4,3 +4,16 @@
     width: 30%;
     border-radius: 2%;
 }
+
+@media screen and (max-width: 1200px) {
+    .popup__container {
+        width: 45%;
+
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .popup__container {
+        width: 70%;
+    }
+}
