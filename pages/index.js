@@ -80,14 +80,19 @@ const isValid = (formElement, inputElement) => {
 
 Array.from(formInputs).forEach((formInput) => {
     formInput.addEventListener('input', () => {
-        isValid(formPopup, formInput)
+        isValid(formPopup, formInput);
     })
 })
 formPopup.addEventListener('submit', (e) => {
-    e.preventDefault()
+    e.preventDefault();
 })
 
-formButton.addEventListener('click', closePopup);
+formButton.addEventListener('click', () => {
+    closePopup();
+    formPopup.reset();
+
+
+});
 
 /* BURGER MENU */
 
