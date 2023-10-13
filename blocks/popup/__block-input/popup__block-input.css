@@ -1,0 +1,9 @@
+.popup__block-input {
+  width: 100%;
+  position: relative;
+  height: 60px;
+}
+
+.popup__block-input:last-of-type {
+  height: 65px;
+}

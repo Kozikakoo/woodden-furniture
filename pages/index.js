@@ -42,12 +42,11 @@ const formInputs = document.querySelectorAll('.popup__input');
 const formPopup = document.querySelector('.popup__form');
 
 const showInputError = (formElement, inputElement, errorMessage) => {
-    console.log(inputElement.id)
     const errorElement = formElement.querySelector(`.${inputElement.id}-error`);
 
     inputElement.classList.add('popup__input_type_error');
     errorElement.textContent = errorMessage;
-    errorElement.classList.add('form__input-error_active');
+
 };
 
 const hideInputError = (formElement, inputElement) => {
@@ -55,9 +54,18 @@ const hideInputError = (formElement, inputElement) => {
     const errorElement = formElement.querySelector(`.${inputElement.id}-error`);
 
     inputElement.classList.remove('popup__input_type_error');
-    errorElement.classList.remove('form__input-error_active');
     errorElement.textContent = '';
 };
+
+const hasInvalidInput = (formInputs) => {
+    return Array.from(formInputs).some((inputElement) => {
+        return !inputElement.validity.valid;
+    })
+};
+
+const isButtonDisabled = () => {
+    hasInvalidInput(formInputs) ? formButton.disabled = true : formButton.disabled = false
+}
 
 const isValid = (formElement, inputElement) => {
     if (!inputElement.validity.valid) {
@@ -65,10 +73,21 @@ const isValid = (formElement, inputElement) => {
     } else {
         hideInputError(formElement, inputElement);
     }
+    isButtonDisabled();
+
 };
 
-Array.from(formInputs).forEach((formInput) => { formInput.addEventListener('input', () => { isValid(formPopup, formInput) }) })
 
+Array.from(formInputs).forEach((formInput) => {
+    formInput.addEventListener('input', () => {
+        isValid(formPopup, formInput)
+    })
+})
+formPopup.addEventListener('submit', (e) => {
+    e.preventDefault()
+})
+
+formButton.addEventListener('click', closePopup);
 
 /* BURGER MENU */
 

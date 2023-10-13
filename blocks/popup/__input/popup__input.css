@@ -1,13 +1,29 @@
  .popup__input {
    width: 100%;
    align-self: center;
-   margin-bottom: 15px;
+   height: 25px;
  }
 
  .popup__input:last-child {
    margin-bottom: 0;
  }
 
+ #message-input {
+   height: 40px;
+ }
+
  .popup__input_type_error {
    border: 1px solid red;
+ }
+
+ .popup__input-error {
+   margin-top: 0;
+   position: absolute;
+   top: 33px;
+   font-size: 11px;
+   color: red;
+ }
+
+ .message-input-error {
+   top: 50px;
  }
